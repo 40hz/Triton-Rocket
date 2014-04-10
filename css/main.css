@@ -96,6 +96,10 @@ body {
     color: white;
 }
 
+aside a {
+    color: gold;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
