@@ -308,10 +308,12 @@ nav a:hover {
 
 
 .team {
+	 margin: 0 auto;
     position: relative;
     width: 100%;
     border: 1px solid grey;
     margin-top: 1em;
+    text-align:center;
 }
 
 .team .team-text {
