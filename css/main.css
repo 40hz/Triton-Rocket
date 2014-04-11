@@ -164,6 +164,22 @@ nav a:hover {
 }
 
 
+/* =================
+	 Sponsors
+	================= */
+
+.gold img {
+	width: 100%;
+}
+
+.silver img {
+	width: 65%;
+}
+
+.bronze img {
+	width: 50%;
+}
+
 
 /* ===============
     ALL: IE Fixes
