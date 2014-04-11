@@ -164,6 +164,22 @@ nav a:hover {
 }
 
 
+/* =================
+	 Sponsors
+	================= */
+
+.gold img {
+	width: 100%;
+}
+
+.silver img {
+	width: 65%;
+}
+
+.bronze img {
+	width: 50%;
+}
+
 
 /* ===============
     ALL: IE Fixes
@@ -226,7 +242,7 @@ nav a:hover {
 
 	.main-container .banner {
 	display: block;
-	background-image: url('../img/Banner.png');
+	
 	position: relative;
 	background-position: center;
 	width: 100%;
@@ -235,7 +251,14 @@ nav a:hover {
 	padding: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
-
+	}
+	
+	#home-banner {
+	background-image: url('../img/Banner.png');
+	}
+	
+	#team-banner {
+	background-image: url('../img/Triton Rocket.jpg')
 	}
 
 	.main-container .banner h2 {
@@ -284,10 +307,11 @@ nav a:hover {
    ================ */
 
 
-article .team {
+.team {
     position: relative;
     width: 100%;
     border: 1px solid grey;
+    margin-top: 1em;
 }
 
 .team .team-text {
@@ -301,6 +325,23 @@ article .team {
     color: white;
     padding: 1em 0 .5em .7em;
 }
+
+/* =================
+	 Sponsors
+	================= */
+
+.gold img {
+	width: 100%;
+}
+
+.silver img {
+	width: 45%;
+}
+
+.bronze img {
+	width: 30%;
+}
+
 
 
 }
@@ -345,6 +386,37 @@ article .team {
         float: right;
         width: 28%;
     }
+    
+    
+    
+/* ================
+    WIDE: Team
+   ================ */
+
+
+.team {
+	width: 75%;
+}
+
+    
+
+/* =================
+	 Sponsors
+	================= */
+
+.gold img {
+	width: 75%;
+}
+
+.silver img {
+	width: 35%;
+}
+
+.bronze img {
+	width: 20%;
+}
+
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -357,6 +429,39 @@ article .team {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
+    
+    
+    
+/* ================
+    MAX WIDE: Team
+   ================ */
+
+
+.team {
+	float: left;
+    width: 45%;
+    margin-left: 4%;
+}
+
+    
+    
+    /* =================
+	 Sponsors
+	================= */
+
+.gold img {
+	width: 75%;
+}
+
+.silver img {
+	width: 25%;
+}
+
+.bronze img {
+	width: 10%;
+}
+
+    
 }
 
 /* ==========================================================================
