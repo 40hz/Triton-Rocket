@@ -1,4 +1,4 @@
-/* ==========================================================================
+﻿/* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
@@ -141,6 +141,7 @@ nav a:hover {
 
 .main-container .banner {
 	display: none;
+	overflow: visible;
 }
 
 .main article h1 {
@@ -157,6 +158,13 @@ nav a:hover {
     padding: 20px 0;
 }
 
+.footer-container img{
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -164,20 +172,6 @@ nav a:hover {
 .ie7 .title {
     padding-top: 20px;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -283,6 +277,31 @@ nav a:hover {
 	.inputButton {
 	width: auto;
 }
+
+
+/* ================
+    Intermediate: Team
+   ================ */
+
+
+article .team {
+    position: relative;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.team .team-text {
+    position: absolute;
+    width: 40%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: .7;
+    color: white;
+    padding: 1em 0 .5em .7em;
+}
+
 
 }
 
