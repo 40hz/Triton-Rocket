@@ -74,31 +74,42 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #0A3A61;
+    
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #0A3A61;
+    border-top: 20px solid #14213d;
 }
 
-
-/* ==============================
-		Changes Main theme Color
-   ============================== */
 .header-container,
 .footer-container,
 .main aside {
-    background: #000080;
+    background: #14213d;
 }
 
 .title {
-    color: white;
+    padding: .5em .5em .5em .5em;
 }
 
 aside a {
-    color: gold;
+    color: #bf910c;
 }
+
+nav a {
+	 color: #bf910c;
+    /*background: #142100;*/
+}
+
+nav a:hover,
+{
+    color: whitesmoke;
+}
+
+.officers {
+	color: #bf910c;
+}
+
 
 /* ==============
     MOBILE: Menu
@@ -117,19 +128,12 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-
-    color: white;
-    background: #0A3A61;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
+
 
 /* ==============
     MOBILE: Main
@@ -204,15 +208,17 @@ nav a:hover {
    ==================== */
 
    nav {
-			width: 90%;
+			width: 57%;
+			margin: 5.5em 0 0 0;
 	}
 
     nav a {
         float: right;
         margin: 0 auto;
-        padding: 25px 1.40%;
+        padding-right: 1.40%;
         margin-bottom: 0;
         display: inline-block;
+        padding-bottom: 0;
     }
 
     nav li:first-child a {
@@ -372,7 +378,7 @@ nav a:hover {
 
     nav {
         float: right;
-        width: 65%;
+        /*width: 65%;*/
     }
 
 /* ============
